@@ -1,0 +1,16 @@
+{
+  "name": "image-to-ascii",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node --no-warnings --experimental-specifier-resolution=node --loader ts-node/esm src/main.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.20",
+    "sharp": "^0.33.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
